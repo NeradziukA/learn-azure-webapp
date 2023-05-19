@@ -24,7 +24,7 @@ function Products() {
         routePath="/products"
       />
       <div className="columns is-multiline is-variable">
-        <div className="column is-8">
+        <div className="column">
           <Switch>
             <Route
               exact
