@@ -8,6 +8,7 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+      - dev
 
 jobs:
   build_and_deploy_job:
@@ -43,3 +44,6 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_POLITE_FLOWER_0EE4E5703 }}
           action: "close"
+permissions:
+  contents: read
+  pull-requests: write
