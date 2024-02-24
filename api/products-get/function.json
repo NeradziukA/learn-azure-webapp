@@ -17,7 +17,7 @@
       "type": "cosmosDB",
       "direction": "in",
       "name": "inputDocuments",
-      "databaseName": "learn-db",
+      "databaseName": "learn-cosmos-nosql",
       "collectionName": "products",
       "connectionStringSetting": "learndb_DOCUMENTDB"
     }
